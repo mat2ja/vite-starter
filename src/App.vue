@@ -1,10 +1,12 @@
 <template>
-	<h1 class="text-9xl text-green-600 -mt-36">Hello world! 🌍</h1>
+	<router-view></router-view>
 </template>
 
 <script>
 export default {
-	data() {},
+	data() {
+		return {};
+	},
 	methods: {},
 	computed: {},
 };

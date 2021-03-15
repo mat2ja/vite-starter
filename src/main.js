@@ -1,10 +1,8 @@
 import { createApp } from 'vue';
-
+import './index.css';
+import App from './App.vue';
 import router from './routes';
 import store from './store/index';
-
-import App from './App.vue';
-import './assets/index.css';
 
 const app = createApp(App);
 
